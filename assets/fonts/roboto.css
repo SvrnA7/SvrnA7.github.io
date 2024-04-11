@@ -1,0 +1,36 @@
+
+/* Inter - Regular */
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('ttf'),
+         url('./assets/fonts/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter - Medium */
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Medium.ttf') format('ttf'),
+         url('./assets/fonts/Roboto-Medium.ttf') format('ttf');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+/* Inter - Bold */
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Bold.ttf') format('ttf'),
+         url('./assets/fonts/Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Inter - Light */
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Light.ttf') format('ttf'),
+         url('./assets/fonts/Roboto-Light.ttf') format('ttf');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
