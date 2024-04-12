@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdesign-svrichter Portfolio website</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/roboto.css">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>-->
+    
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet"/>
+    
+    <!-- Font -->
+    <link rel="stylesheet" href="./assets/fonts/inter.css">
+
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">-->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://cloud.ccm19.de/app.js?apiKey=c3a18a2a9e1fa643b204491e629eb05342f201308125f7f1&amp;domain=6618fc882a68288feb025652&amp;lang=de_DE" referrerpolicy="origin"></script>
+</head>
+<body>
+
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="global-color">
+        <span class="setting-toggle">
+            <i class="las la-cog"></i>
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h2>Configuration</h2>
+                <div class="global-color-option-inner">
+                    <p>Colors</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    <p>THREE DIMENSIONAL SHAPES</p>
+                    <ul class="themes">
+                        <li class="active"><a href="./home1.html">Solid Color</a></li>
+                        <li><a href="./home2.html">Simple Strings</a></li>
+                        <li><a href="./home3.html">Water Waves</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p class="menu-title">Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="index.html">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#impressum">
+                            <i class="las la-info-circle"></i><span>Impressum</span> 
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="scroll-to" href="#footer-contact">
+                            <i class="las la-envelope"></i> <span>Kontakt</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-social">
+                <p class="menu-title">Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href=""><i class="lab la-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="lab la-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="lab la-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="index.html">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#impressum">
+                <span>Impressum</span> <i class="las la-info-circle"></i>
+            </a>
+        </li>
+        
+        <li>
+            <a class="scroll-to" href="#footer-contact">
+                <span>Kontakt</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar my-4">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <img src="./assets/images/mountain2.png" alt="Logo">
+            <span class="designation">Webdesigner  &amp; Frontend Developer</span>
+        </div>
+        <img class="me" src="./assets/images/Me-pic.jpg" alt="Me">
+        
+        <p class="copyright">&copy; 2024  Web Design SV Richter</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href="https://www.linkedin.com/in/sven-arnold-richter/"><i class="lab la-linkedin"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="lab la-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/SvrnA7"><i class="lab la-github"></i></a>
+            </li>
+        </ul>
+        <a href="mailto:webdesign-svrichter@outlook.de?
+                &subject=Kontakt/Anfrage - Webdesign
+                &body=Fügen Sie hier Ihre Anfrage mit allen Informationen ein.." class="theme-btn">
+            <i class="las la-envelope"></i> Kontaktieren!
+        </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between ">
+                        <img src="./assets/images/mountain2.png" alt="Logo">
+                        
+                    </div>
+                    <img class="me" src="./assets/images/Me-responsive.jpg" alt="Me">
+                    <h2 class="designation">Wordpress & WIX Studio Webdesigner</h2>
+                    <h2 class="address"> aus Berlin</h2>
+                    <p class="copyright">&copy; 2024 webdesign-svrichter.de All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/sven-arnold-richter/"><i class="lab la-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="lab la-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SvrnA7"><i class="lab la-github"></i></a>
+                        </li>
+                    </ul>
+                    <a href="mailto:webdesign-svrichter@outlook.de?
+                            &subject=Kontakt/Anfrage - Webdesign
+                            &body=Fügen Sie hier Ihre Anfrage mit allen Informationen ein.." class="theme-btn">
+                        <i class="las la-envelope"></i> Kontaktieren
+                    </a>
+                </div>
+
+                <section class="hero-section page-section scroll-to-page" id="impressum">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Impressum</h4>
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom"><span>Impressum</span></h1>
+                            </div>
+
+                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Angaben gemäß  § 5 TMG:</h2> <br>
+                            
+                            
+                                <div class="left scroll-animation" data-animation="fade_from_bottom">
+                                    <h5>Webdesign Sven-Arnold Richter</h5>
+                                    <h5>Sven-Arnold Richter</h5>
+                                    <h5>Hauptstraße 86, <br> 10317 Berlin</h5> <br> 
+                                </div>
+                                
+                            
+                            <div class="left scroll-animation" data-animation="fade_from_bottom">
+                                    <h5>Kontakt:</h5> <br>
+                                    <h6>Telefon: +49 171 5134190</h6>
+                                    <h6>E-Mail: webdesign-svrichter@outlook.de</h6><br>
+                            </div>
+                            <div class="left scroll-animation" data-animation="fade_from_bottom">
+                                    <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2> <br>
+                                    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p><br>
+                                    <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+                            </div
+
+                        </div>
+                    </div>
+                </section>
+        
+            
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <!-- Footer -->
+<footer class="text-center text-white scroll-animation" style="background-color:#6e6e6e;" data-animation="fade_from_bottom">
+
+  <div class="mb-4">
+        <img src="assets\images\footer-logo.jpg" alt="Footer-logo" >
+    </div>
+<!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Instagram -->
+      <a class="btn btn-secondary  m-1 " style="background-color: transparent" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-secondary m-1" style="background-color:transparent" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Github -->
+      <a class="btn btn-secondary  m-1" style="background-color: transparent" href="#!" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+
+
+    <!-- Section: Text -->
+    <section class="mb-4 text-lg-start">
+        <div class="row">
+        <!-- Grid column -->
+        <div class="col-lg-3 col-md-6 mb-4"></div>
+        <div class="col-lg-6 mb-4  ">
+            <p>
+                Diese Website dient als Portfolio meiner Arbeit. Entdecken Sie Umgesetzte Projekte und lassen Sie sich inspirieren. Kontaktieren Sie mich gerne, um Ihr nächstes Webdesign-Projekt gemeinsam umzusetzen!
+            </p>
+        </div>
+       </div>
+    </section>
+    <!-- Section: Text -->
+
+
+    <!-- Section: Links -->
+    <section class="mb-4 ">
+      <!--Grid row-->
+      <div class="row ">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4"></div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="text-black-50">Links</h5>
+
+          <ul class="list-unstyled mb-0 ">
+            <li>
+              <a class="scroll-to text-white custom-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#about" class="scroll-to text-white custom-link">Über mich</a>
+            </li>
+            <li>
+              <a href="index.html#resume" class="scroll-to text-white custom-link">Lebenslauf</a>
+            </li>
+            <li>
+              <a href="index.html#services" class="scroll-to text-white custom-link">Service</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-black-50">weitere Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="index.html#skills" class="scroll-to text-white custom-link">Skills</a>
+            </li>
+            <li>
+              <a href="index.html#portfolio" class="scroll-to text-white custom-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#!" class="scroll-to text-white custom-link">Datenschutz</a>
+            </li>
+            <li>
+              <a href="Impressum.html" class="scroll-to text-white custom-link">Impressum</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+
+        <div class="row d-flex align-items-center" id="footer-contact">
+            <div class="col-12 my-4">
+                <h5 class="text-black-50">Kontakt:</h5>
+                <p><a class="email text-white" href="mailto:webdesign-svrichter@outlook.de?
+                &subject=Kontakt/Anfrage - Webdesign
+                &body=Fügen Sie hier Ihre Anfrage mit allen Informationen ein..">webdesign-svrichter@outlook.de</a></p>
+                
+                 <a href="mailto:webdesign-svrichter@outlook.de?
+                &subject=Kontakt/Anfrage - Webdesign
+                &body=Fügen Sie hier Ihre Anfrage mit allen Informationen ein.." class="theme-btn">
+            <i class="las la-envelope"></i> Kontaktieren!
+        </a>
+            </div>
+        </div>
+
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+     <p class="copyright" >&copy; 2024 <a href="#" class="custom-link">webdesign-svrichter.de</a> All Rights Reserved</p> 
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/ScrollToPlugin.min.js"></script>
+    <script src="./assets/js/lightbox.min.js"></script>
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ajax-form.js"></script>
+    <script src="./assets/js/color.js"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+
+</body>
+</html>
