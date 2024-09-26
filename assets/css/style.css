@@ -1008,6 +1008,7 @@ body .body-overlay {
 }
 .skills .skill:hover .skill-inner {
     border-color: var(--primary_color);
+
 }
 .skills .skill .skill-inner img {
     display: block;
@@ -1025,7 +1026,14 @@ body .body-overlay {
     margin: 0;
 }
 
+.skill {
+    position: relative;
+    transition: transform 0.3s ease; /* Smooth transition for the movement */
+}
 
+.skill:hover {
+    transform: translateY(-10px); /* Moves the container 10px upwards */
+}
 
 /* 14 - Portfolio */
 .portfolio-area {
