@@ -6,16 +6,25 @@ $(function(){
 
     $(document).ready(function() {
 
+        // Menü öffnen
         $(document).on('click', '.icon-menu', function() {
             $('.responsive-sidebar-menu').addClass('active');
         });
+
+        // Menü schließen über Overlay
         $(document).on('click', '.responsive-sidebar-menu .overlay', function() {
             $('.responsive-sidebar-menu').removeClass('active');
         });
 
+        // Menü schließen über Schließen-Button
+        $(document).on('click', '.responsive-sidebar-menu .close-settings', function() {
+            $('.responsive-sidebar-menu').removeClass('active');
+        });
+
+        // Menü schließen beim Klicken auf Menüelement
         $(document).on('click', '.menu li .scroll-to', function() {
             $('.responsive-sidebar-menu').removeClass('active');
-        })
+        });
 
 
         $(document).on('click', ".color-boxed a", function() {

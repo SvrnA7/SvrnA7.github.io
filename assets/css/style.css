@@ -654,6 +654,18 @@ main.drake-main {
     color: #fff;
 }
 
+.close-settings {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.close-settings:hover {
+    color: rgb(148, 148, 148);
+}
 
 /* 05 - Section Header */
 .section-header h1 {
@@ -667,6 +679,27 @@ main.drake-main {
     color: var(--primary_color);
 }
 
+.section-header h2 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+.section-header h2 span {
+    color: var(--primary_color);
+}
+
+.section-header-1 h2 {
+    font-size: 42px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+.section-header-1 h2 span {
+    color: var(--primary_color);
+}
 
 /* 06 - Left Sidebar */
 .left-sidebar {
@@ -702,6 +735,12 @@ main.drake-main {
     font-weight: 400;
 }
 .left-sidebar h2 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.left-sidebar h3 {
     font-size: 24px;
     color: #fff;
     text-align: center;
@@ -794,6 +833,13 @@ main.drake-main {
 }
 .hero-section .hero-content .facts h1 {
     font-size: 72px;
+    color: var(--primary_color);
+    line-height: 56px;
+    margin-bottom: 38px;
+}
+.hero-section .hero-content .facts h2 {
+    font-weight: 300;
+    font-size: 68px;
     color: var(--primary_color);
     line-height: 56px;
     margin-bottom: 38px;
@@ -908,19 +954,19 @@ body .body-overlay {
     margin-bottom: 28px;
     transition: .3s;
 }
-.resume-area .resume-content .resume-timeline .item h2 {
+.resume-area .resume-content .resume-timeline .item h3 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 5px;
     color: #fff;
 }
-.resume-area .resume-content .resume-timeline .item h2 a {
+.resume-area .resume-content .resume-timeline .item h3 a {
     color: #fff;
     display: block;
 }
 .resume-area .resume-content .resume-timeline .item p {
     font-size: 13px;
-    color: #999999;
+    color: #4a4a4a;
     margin-bottom: 18px;
 }
 .resume-area .resume-content .resume-timeline .item p:last-child {
@@ -951,13 +997,13 @@ body .body-overlay {
 .services-items .service-item:last-child {
     margin-bottom: 0;
 }
-.services-items .service-item h2 {
+.services-items .service-item h3 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 8px;
     color: #fff;
 }
-.services-items .service-item h2 a {
+.services-items .service-item h3 a {
     color: #fff;
     transition: .3s;
 }
@@ -1014,7 +1060,7 @@ body .body-overlay {
     display: block;
     margin: auto auto 29px auto;
 }
-.skills .skill .skill-inner h1 {
+.skills .skill .skill-inner h3 {
     font-size: 30px;
     color: var(--primary_color);
     font-weight: 300;
@@ -1084,19 +1130,20 @@ body .body-overlay {
     background: #1f1f1f;
     color: #fff;
 }
-.portfolio-items .portfolio-item h2 {
+.portfolio-items .portfolio-item h3 {
     font-size: 24px;
     font-weight: 300;
     margin: 0;
 }
-.portfolio-items .portfolio-item h2 a {
+.portfolio-items .portfolio-item h3 a {
     color: #fff;
     display: inline-block;
     border-bottom: 1px solid transparent;
     transition: .3s;
 }
-.portfolio-items .portfolio-item:hover h2 a {
+.portfolio-items .portfolio-item:hover h3 a {
     border-color: #ffffff;
+
 }
 
 
@@ -1891,13 +1938,14 @@ body .body-overlay {
 
 .custom-link {
     transition: text-decoration;
-    transition-delay: 0.5s; /* Verzögerung des Hovern um 0,5 Sekunden */
+    color: #c4c4c4;
+    transition-delay: 0.7s; /* Verzögerung des Hovern um 0,5 Sekunden */
     }
 
 /* Benutzerdefiniertes CSS für Link-Unterstreichung beim Hover */
 .custom-link:hover {
     text-decoration: underline;
-    color: #1f1f1f;
+    color: #ffffff;
     }
 
 .footer-area {
